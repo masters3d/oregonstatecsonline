@@ -6,8 +6,6 @@ PDF file scraped from Oregon State EECS
 #http://eecs.oregonstate.edu/sites/eecs.oregonstate.edu/files/cs101.pdf
 
 import http.client
-from time import sleep
-
 for each in range(101, 999):
 	conn = http.client.HTTPConnection("eecs.oregonstate.edu")
 	document = "cs{0}.pdf".format(each)
